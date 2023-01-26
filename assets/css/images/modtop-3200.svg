@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3200px" height="460px" viewBox="0 0 3200 460" zoomAndPan="disable">
+
+    <style type="text/css"><![CDATA[
+		line { stroke-width: 1px; }
+		line.upper { stroke: rgba(224,224,224,0.15); }
+		line.lower { stroke: rgba(224,224,224,0.75); }
+		polygon.one { fill: #A3CB8F;}
+		polygon.two { fill: #DED2AA; }
+    ]]></style>	
+
+	<!-- Backgrounds -->
+		<polygon points="0,50 1300,410 3200,50 3200,460 0,460" class="one"/>
+        <polygon points="0,100 1300,460 3200,100 3200,460 0,460" class="two" />
+		
+
+	<!-- Upper lines -->
+
+
+	<!-- Lower Lines -->
+		<line x1="0" y1="100" x2="1300" y2="460" class="lower" />
+		<line x1="1300" y1="460" x2="3200" y2="100" class="lower" />
+
+</svg>
